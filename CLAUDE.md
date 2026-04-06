@@ -2,7 +2,7 @@
 
 ## SDLC Agent Team
 
-When a task is complex enough to benefit from multiple perspectives or parallel work, engage the SDLC agent team. Use `TeamCreate` to spin up the team and spawn the relevant agents.
+**Every task MUST use the SDLC agent team.** No exceptions. Use `TeamCreate` to spin up the team and spawn the relevant agents for every piece of work.
 
 ### Team Philosophy
 
@@ -44,23 +44,42 @@ The **Web Searcher** (Haiku) is a lightweight utility — lookups only, no decis
 - **API design or refactor**: Architect (lead), Backend Engineer, Frontend Engineer, Code Reviewer
 - **Pre-release audit**: QA Engineer, Code Reviewer, Security Engineer, DevOps Engineer
 - **Documentation or research**: Web Searcher (utility, no team needed)
-- **Simple, single-file changes**: Do NOT spin up the team — handle directly
+- **Simple, single-file changes**: Architect + the relevants Principal agents
 
 ### Team Workflow
 
+Every task follows two phases: **Plan**, then **Execute**. No execution happens before the plan is approved by the user.
+
+#### Phase 1 — Collaborative Planning (MANDATORY)
+
 1. Create the team with `TeamCreate` (name: `sdlc`)
-2. Always spawn the **Distinguished Architect** first — they lead and assign work
-3. Spawn the relevant Principal agents based on the task
-4. The Architect creates tasks, assigns them, and coordinates the team
-5. Principals execute in their domain with full agency — they solve problems they find
-6. Use the **Web Searcher** utility for any external lookups needed during the work
-7. Shut down agents when done
+2. Always spawn the **Distinguished Architect** first — they lead the planning process
+3. Spawn all relevant Principal agents for the task
+4. **All spawned agents contribute to the plan from their domain expertise:**
+   - The **Architect** leads, synthesizes, and produces the final plan structure
+   - The **Product Manager** shapes requirements, acceptance criteria, and scope
+   - The **Designer** informs UX decisions, interaction patterns, and accessibility needs
+   - The **Frontend/Backend Engineers** flag technical constraints, propose architecture, and agree on API contracts
+   - The **QA Engineer** defines the test strategy and quality gates
+   - The **Security Engineer** identifies risks, threat vectors, and compliance needs
+   - The **Cloud/DevOps Engineers** flag infrastructure and deployment considerations
+   - The **Code Reviewer** raises maintainability and consistency concerns
+5. The Architect synthesizes all input into a unified plan
+6. **Present the plan to the user for approval before any execution begins**
+
+#### Phase 2 — Execution
+
+7. Once the user approves, the team executes the plan
+8. The Architect creates tasks, assigns them, and coordinates the team
+9. Principals execute in their domain with full agency — they solve problems they find
+10. Use the **Web Searcher** utility for any external lookups needed during the work
+11. Shut down agents when done
 
 ### Team Operating Rules
 
 - **One direction, no churn.** The Architect sets technical direction. Once a decision is made, the team executes. No agent contradicts a settled decision — if they disagree, they raise it with the Architect directly, get a ruling, and move forward.
 - **Fix what you find.** Every agent has the agency and technical depth to solve problems. If the QA Engineer finds a bug they can fix, they fix it. If the Security Engineer finds a vulnerability, they write the patch. If the Designer can implement a component faster than speccing it, they implement it.
 - **Coordinate, don't block.** Agents work directly with each other. The Frontend and Backend Engineers agree on API contracts and build in parallel. The Designer and Frontend Engineer pair on UI. The Security Engineer and Code Reviewer co-review sensitive changes. No waiting for permission.
-- **Align upfront, execute independently.** The Architect and Product Manager align on what and how before the team starts. Once aligned, engineers execute without second-guessing. Mid-course changes go through the Architect.
+- **Plan together, execute independently.** All team members contribute to the plan from their domain expertise. The Architect synthesizes and leads, but every agent's perspective shapes the plan. Once the user approves the plan, engineers execute without second-guessing. Mid-course changes go through the Architect.
 - **Right-size the team.** Only spawn agents whose expertise is needed. A CSS fix doesn't need the Cloud Engineer.
 - **Security by default.** Engage the Security Engineer for any work touching auth, user data, external APIs, or infrastructure.
