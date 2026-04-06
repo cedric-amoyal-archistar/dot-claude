@@ -1,0 +1,42 @@
+[
+    {
+        "type": "city_subEnv",
+        "country_code": "ca",
+        "subEnv": "production",
+        "label": "Production",
+        "short_name": "vancouver",
+        "icon": "check-circle",
+        "url": "vancouver.ca.archistar.io",
+        "description": "Platform, Data, Visualisation and eCheck Reports that would be visible to public users."
+    },
+    {
+        "type": "city_subEnv",
+        "country_code": "ca",
+        "subEnv": "uat",
+        "label": "UAT",
+        "short_name": "vancouver-uat",
+        "icon": "plus-circle",
+        "url": "vancouver-uat.ca.archistar.io",
+        "description": "Platform, Data, Visualisation and eCheck Reports that are still in development and ready for User Acceptance Testing internally."
+    },
+    {
+        "type": "city_subEnv",
+        "country_code": "ca",
+        "subEnv": "wip",
+        "label": "Work in Progress",
+        "short_name": "vancouver-wip",
+        "icon": "pause-circle",
+        "url": "vancouver-wip.ca.archistar.io",
+        "description": "Work in progress elements that are for discussion and not for formal testing."
+    },
+    {
+        "type": "city_subEnv",
+        "country_code": "ca",
+        "subEnv": "dev",
+        "label": "Dev [io]",
+        "short_name": "vancouver-dev",
+        "icon": "headphones",
+        "url": "vancouver-dev.ca.archistar.io",
+        "description": "Internal development environment available on staging (.io) only"
+    }
+]

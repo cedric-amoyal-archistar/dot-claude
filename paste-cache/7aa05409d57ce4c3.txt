@@ -1,0 +1,29 @@
+Run npm run lint
+
+> lineups-vite-react-tailwind-healess-ui@0.0.0 lint
+> eslint .
+
+
+/home/runner/work/lineups-react/lineups-react/src/components/lineup/BenchList.tsx
+Error:   11:16  error  "countryCode" | "clubJerseyNumber" | "age" | "height" | "imageUrl" is overridden by string in this union type  @typescript-eslint/no-redundant-type-constituents
+
+/home/runner/work/lineups-react/lineups-react/src/components/lineup/PitchView.tsx
+Error:   7:16  error  "countryCode" | "clubJerseyNumber" | "age" | "height" | "imageUrl" is overridden by string in this union type  @typescript-eslint/no-redundant-type-constituents
+
+/home/runner/work/lineups-react/lineups-react/src/components/lineup/PlayerNode.tsx
+Error:   28:17  error  "countryCode" | "clubJerseyNumber" | "age" | "height" | "imageUrl" is overridden by string in this union type  @typescript-eslint/no-redundant-type-constituents
+
+/home/runner/work/lineups-react/lineups-react/src/components/lineup/TeamHalf.tsx
+Error:   11:16  error  "countryCode" | "clubJerseyNumber" | "age" | "height" | "imageUrl" is overridden by string in this union type  @typescript-eslint/no-redundant-type-constituents
+
+/home/runner/work/lineups-react/lineups-react/src/components/lineup/__tests__/PlayerNode.test.tsx
+Error:   46:30  error  Unexpected control character(s) in regular expression: \x00  no-control-regex
+
+/home/runner/work/lineups-react/lineups-react/src/components/match/__tests__/MatchEvents.test.tsx
+  70:5   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+Error:   71:27  error    Unsafe member access .playerEvents on an `any` value                                                   @typescript-eslint/no-unsafe-member-access
+
+✖ 7 problems (6 errors, 1 warning)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
+Error: Process completed with exit code 1.

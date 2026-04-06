@@ -1,0 +1,39 @@
+client:510 [Vue warn]: Invalid prop: type check failed for prop "countryCode". Expected String with value "undefined", got Undefined  
+  at <PlayerNode jersey-number=5 name="FERDINAND" full-name="Rio Ferdinand"  ... > 
+  at <TeamHalf lineup= 
+{bench: Array(7), coaches: Array(0), field: Array(11), team: {…}}
+ display-mode="countryCode" > 
+  at <PitchView lineups= 
+{awayTeam: {…}, homeTeam: {…}, lineupStatus: 'AVAILABLE', matchId: '301604'}
+ display-mode="countryCode" > 
+  at <MatchDetailView id="301604" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< 
+Proxy(Object) {__v_skip: true}
+ > > 
+  at <RouterView key="/match/301604" > 
+  at <DefaultLayout> 
+  at <App>
+
+client:510 [Vue warn]: Unhandled error during execution of setup function 
+  at <PlayerNode jersey-number=5 name="FERDINAND" full-name="Rio Ferdinand"  ... > 
+  at <TeamHalf lineup= 
+{bench: Array(7), coaches: Array(0), field: Array(11), team: {…}}
+ display-mode="countryCode" > 
+  at <PitchView lineups= 
+{awayTeam: {…}, homeTeam: {…}, lineupStatus: 'AVAILABLE', matchId: '301604'}
+ display-mode="countryCode" > 
+  at <MatchDetailView id="301604" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< 
+Proxy(Object) {__v_skip: true}
+ > > 
+  at <RouterView key="/match/301604" > 
+  at <DefaultLayout> 
+  at <App>
+client:510 [Vue warn]: Unhandled error during execution of component update 
+  at <MatchDetailView id="301604" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< 
+Proxy(Object) {__v_skip: true}
+ > > 
+  at <RouterView key="/match/301604" > 
+  at <DefaultLayout> 
+  at <App>
+useCountryFlag.ts:34 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at getFlagUrl (useCountryFlag.ts:34:57)
+    at setup (PlayerNode.vue:17:17)

@@ -1,0 +1,51 @@
+{
+    "logo_url": "https://archistarr-assets-public.s3.ap-southeast-2.amazonaws.com/city-images/austin_us/cityofaustinlogo_DSD.png",
+    "label": "Austin, Texas",
+    "name": "Austin",
+    "short_name": "austin",
+    "countryCode": "us",
+    "sub_environments": null,
+    "navbar_color": "#44499C",
+    "navbutton_color": "#0FA04D",
+    "navbutton_text_color": "#FFFFFF",
+    "bbox": [
+        -98.087311,
+        30.067905,
+        -97.465897,
+        30.481817
+    ],
+    "geocoder_settings": {
+        "apply_bbox": true,
+        "isCompleted": true,
+        "isPublished": true,
+        "apply_country": true,
+        "other_filters": {
+            "place": "Austin",
+            "region": null,
+            "district": null,
+            "locality": null,
+            "postcode": null,
+            "neighborhood": null
+        },
+        "custom_geocoder_title": null,
+        "use_custom_geocoder_prod": "mapbox_only",
+        "use_custom_geocoder_wip_uat": "mapbox_only"
+    },
+    "disable_start_page": true,
+    "require_code_to_register": true,
+    "city_terms_text": null,
+    "city_terms_link": null,
+    "allow_chk_upload": "allowed",
+    "can_upload_check_file": true,
+    "modules": [
+        {
+            "key": "city_explore",
+            "name": "City_Explore",
+            "description": "View property data, zoning, and GIS layers in one place",
+            "image": "https://archistarr-assets-public.s3.ap-southeast-2.amazonaws.com/img/app/start_modules/app_city_explore.svg",
+            "icon_image": "https://archistarr-assets-public.s3.ap-southeast-2.amazonaws.com/img/app/start_modules/img_city_explore.svg",
+            "status": "Enabled",
+            "url": "https://austin.us.archistar.io/city"
+        }
+    ]
+}

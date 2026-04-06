@@ -1,0 +1,28 @@
+# Session & history data
+history.jsonl
+sessions/
+session-env/
+shell-snapshots/
+
+# Caches
+cache/
+paste-cache/
+image-cache/
+mcp-needs-auth-cache.json
+
+# Telemetry & debug
+telemetry/
+debug/
+
+# IDE integration
+ide/
+
+# Project session logs (may contain secrets from context)
+projects/
+file-history/
+
+# Ephemeral data
+downloads/
+backups/
+policy-limits.json
+teams/

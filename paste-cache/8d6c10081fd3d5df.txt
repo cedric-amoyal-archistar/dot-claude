@@ -1,0 +1,732 @@
+[Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "176", got Number with value 176. 
+  at <PlayerNode jersey-number=7 name="GRIEZMANN" full-name="Antoine Griezmann"  ... > 
+  at <TeamHalf lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="countryCode" inverted="" > 
+  at <PitchView lineups= {awayTeam: {…}, homeTeam: {…}, lineupStatus: 'TACTICAL_AVAILABLE', matchId: '2048060'} display-mode="countryCode" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+validateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+initPro.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:4851
+setupComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:6669
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5472
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5530
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+setupRenderEffect @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5598
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5482
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5530
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+setupRenderEffect @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5598
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5482
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+(anonymous) @ MatchDetailView.vue:49
+await in (anonymous)
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3766
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+hook.__weh.hook.__weh @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3755
+flushPostFlushCbs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2006
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2034
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+finalizeNavigation @ vue-router.js?v=05bfb065:2629
+(anonymous) @ vue-router.js?v=05bfb065:2557
+Promise.then
+pushWithRedirect @ vue-router.js?v=05bfb065:2545
+push @ vue-router.js?v=05bfb065:2498
+navigate @ vue-router.js?v=05bfb065:2184
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+invoker @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:7603Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "182", got Number with value 182. 
+  at <PlayerNode jersey-number=14 name="M. LLORENTE" full-name="Marcos Llorente"  ... > 
+  at <TeamHalf lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="countryCode" inverted="" > 
+  at <PitchView lineups= {awayTe {…}, homeTeam: {…}, lineupStatus: 'TACTICAL_AVAILABLE', matchId: '2048060'} display-mode="countryCode" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+validateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+initProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:4851
+setupComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:6669
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5472
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.re.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5530
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+setupRenderEffect @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5598
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5482
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5530
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+setupRenderEffect @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5598
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5482
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+(anonymous) @ MatchDetailView.vue:49
+await in (anonymous)
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3766
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+hook.__weh.hook.__weh @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3755
+flushPostFlushCbs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2006
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2034
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+finalizeNavigation @ vue-router.js?v=05bfb065:2629
+(anonymous) @ vue-router.js?v=05bfb065:2557
+Promise.then
+pushWithRedirect @ vue-router.js?v=05bfb065:2545
+push @ vue-router.js?v=05bfb065:2498
+navigate @ vue-router.js?v=05bfb065:2184
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+invoker @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:7603Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "185", got Number with value 185. 
+  at <PlayerNode key="250063505" jersey-number=2 name="J. M. GIMÉNEZ"  ... > 
+  at <BenchList lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="countryCode" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+validateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+initProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:4851
+setupComponent @ vue.runtime.esm-bundler-BttH-_xv=05bfb065:6669
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5472
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5530
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+setupRenderEffect @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5598
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5482
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+(anonymous) @ MatchDetailView.vue:49
+await in (anonymous)
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3766
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+hook.__weh.hook.__weh @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3755
+flushPostFlushCbs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2006
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2034
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+finalizeNavigation @ vue-router.js?v=05bfb065:2629
+(anonymous) @ vue-router.js?v=05bfb065:2557
+Promise.then
+pushWithRedirect @ vue-router.js?v=05bfb065:2545
+push @ vue-router.js?v=05bfb065:2498
+navigate @ vue-router.js?v=05bfb065:2184
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+invoker @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:7603Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "178", got Number with value 178. 
+  at <PlayerNode key="1909917" jersey-number=6 name="KOKE"  ... > 
+  at <BenchList lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="countryCode" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> rRef< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+validateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+initProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:4851
+setupComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:6669
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5472
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElemet @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5530
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+setupRenderEffect @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5598
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5482
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+(anonymous) @ MatchDetailView.vue:49
+await in (anonymous)
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3766
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+hook.__weh.hook.__weh @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3755
+flushPostFlushCbs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2006
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2034
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+finalizeNavigation @ vue-router.js?v=05bfb065:2629
+(anonymous) @ vue-router.js?v=05bfb065:2557
+Promise.then
+pushWithRedirect @ vue-router.js?v=05bfb065:2545
+push @ vue-router.js?v=05bfb065:2498
+navigate @ vue-router.js?v=05bfb065:2184
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+invoker @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:7603Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "186", got Number with value 186. 
+  at <PlayerNode key="250042779" jersey-number=15 name="LENGLET"  ... > 
+  at <BenchList lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="countryCode" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+validateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+initProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:4851
+setupComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:6669
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5472
+processonent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5530
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+setupRenderEffect @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5598
+mountComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5482
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5462
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+mountElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5327
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5310
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+mountChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5369
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5453
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+(anonymous) @ MatchDetailView.vue:49
+await in (anonymous)
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3766
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+hook.__weh.hook.__weh @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:3755
+flushPostFlushCbs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2006
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2034
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+finalizeNavigation @ vue-router.js?v=05bfb065:2629
+(anonymous) @ vue-router.js?v=05bfb065:2557
+Promise.then
+pushWithRedirect @ vue-router.js?v=05bfb065:2545
+push @ vue-router.js?v=05bfb065:2498
+navigate @ vue-router.js?v=05bfb065:2184
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1881
+invoker @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:7603Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "176", got Number with value 176. 
+  at <PlayerNode jersey-number=7 name="GRIEZMANN" full-name="Antoine Griezmann"  ... > 
+  at <TeamHalf lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="height" inverted="" > 
+  at <PitchView lineups= {awayTeam: {…}, homeTeam: {…}, lineupStatus: 'TACTICAL_AVAILABLE', matchId: '2048060'} display-mode="height" > 
+  chDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+validateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+updateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:4904
+updateComponentPreRender @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5605
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5566
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+patchKeyedChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5657
+patchChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5618
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5457
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5455
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5455
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+set @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1375
+$setup.showDisplaySelect._createElementBlock.onUpdate:modelValue._cache.<computed>._cache.<computed> @ DefaultLayout.vue:56
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:8300Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "182", got Number with value 182. 
+  at <PlayerNode jersey-number=14 name="M. LLORENTE" full-name="Marcos Llorente"  ... > 
+  at <TeamHalf lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="height" inverted="" > 
+  at <PitchView lineups= {awayTeam: {…}, homeTeam: {…}, lineupStatus: 'TACTICAL_AVAILABLE', matchId: '2048060'} display-mode="height" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) p: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+validateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+updateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:4904
+updateComponentPreRender @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5605
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5566
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+patchKeyedChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5657
+patchChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5618
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5457
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5455
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5455
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+set @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1375
+$setup.showDisplaySelect._createElementBlock.onUpdate:modelValue._cache.<computed>._cache.<computed> @ DefaultLayout.vue:56
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:8300Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "185", got Number with value 185. 
+  at <PlayerNode key="250063505" jersey-number=2 name="J. M. GIMÉNEZ"  ... > 
+  at <BenchList lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="height" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+vteProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+updateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:4904
+updateComponentPreRender @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5605
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5566
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchKeyedChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5657
+patchChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5618
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5457
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5455
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5455
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+set @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1375
+$setup.showDisplaySelect._createElementBlock.onUpdate:modelValue._cache.<computed>._cache.<computed> @ DefaultLayout.vue:56
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:8300Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "178", got Number with value 178. 
+  at <PlayerNode key="1909917" jersey-number=6 name="KOKE"  ... > 
+  at <BenchList lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="height" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
+console.<computed> @ client:510
+warn$1 @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1737
+validateProp @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5053
+validateProps @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5033
+updateProps @ vue.runtime.esm-bundler-BttH-_x?v=05bfb065:4904
+updateComponentPreRender @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5605
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5566
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchKeyedChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5657
+patchChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5618
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5457
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+updateComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5495
+processComponent @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5463
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5257
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5455
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+processFragment @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5455
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5254
+patchBlockChildren @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5423
+patchElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5390
+processElement @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5315
+patch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5256
+componentUpdateFn @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5577
+run @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:410
+runIfDirty @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:437
+callWithErrorHandling @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1874
+flushJobs @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:2023
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1965
+queueJob @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1961
+effect.scheduler @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:5594
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:430
+endBatch @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:480
+notify @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:695
+trigger @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:687
+set value @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1346
+set @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:1375
+$setup.showDisplaySelect._createElementBlock.onUpdate:modelValue._cache.<computed>._cache.<computed> @ DefaultLayout.vue:56
+(anonymous) @ vue.runtime.esm-bundler-BttH-_xU.js?v=05bfb065:8300Understand this warning
+client:510 [Vue warn]: Invalid prop: type check failed for prop "height". Expected String with value "186", got Number with value 186. 
+  at <PlayerNode key="250042779" jersey-number=15 name="LENGLET"  ... > 
+  at <BenchList lineup= {bench: Array(12), coaches: Array(1), field: Array(11), kitImageUrl: 'https://img.uefa.com/imgml/teamkits/1/2026/50124/Kits/pl03.png', shirtColor: '#2c72c2', …} display-mode="height" > 
+  at <MatchDetailView id="2048060" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) {__v_skip: true} > > 
+  at <RouterView key="/match/2048060" > 
+  at <DefaultLayout> 
+  at <App>
