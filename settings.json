@@ -3,6 +3,7 @@
     "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
   },
   "permissions": {
+    "defaultMode": "acceptEdits",
     "allow": [
       "Read(//Users/cedricamoyal/dev/frontend/image-frontend/**)",
       "Read(//Users/cedricamoyal/dev/**)"
