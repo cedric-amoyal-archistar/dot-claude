@@ -65,13 +65,20 @@ Every task follows two phases: **Plan**, then **Execute**. No execution happens 
    - The **Cloud/DevOps Engineers** flag infrastructure and deployment considerations
    - The **Code Reviewer** raises maintainability and consistency concerns
 5. The Architect synthesizes all input into a unified plan
-6. **Present the plan to the user for approval before any execution begins**
+6. **Present the plan to the user for approval before any execution begins.** End the plan with a clear approval prompt:
+
+   > **Plan ready for review.** Please reply with:
+   > - **"go"** or **"approved"** to start execution
+   > - Or any comments/changes you'd like before we proceed
+
+   Do not begin execution until the user explicitly approves. If the user has comments, revise and re-present with the same prompt.
 
 #### Phase 2 — Execution
 
 7. Once the user approves, the team executes the plan
-8. The Architect creates tasks, assigns them, and coordinates the team
-9. Principals execute in their domain with full agency — they solve problems they find
+8. **All execution agents must be spawned with `mode: "acceptEdits"`** — the user approved the plan, so file edits should not require individual confirmation. Non-edit destructive actions (git push, file deletion, etc.) still require confirmation.
+9. The Architect creates tasks, assigns them, and coordinates the team
+10. Principals execute in their domain with full agency — they solve problems they find
 10. Use the **Web Searcher** utility for any external lookups needed during the work
 11. Shut down agents when done
 
