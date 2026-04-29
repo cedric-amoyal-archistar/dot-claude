@@ -7,9 +7,9 @@
     "allow": [
       "Read(//Users/cedricamoyal/dev/frontend/image-frontend/**)",
       "Read(//Users/cedricamoyal/dev/**)",
-      "Bash(/Users/cedricamoyal/.claude/skills/find-unused-vue/scripts/scan.sh)",
-      "Bash(/Users/cedricamoyal/.claude/skills/promote-permissions/scripts/plan.sh)",
-      "Bash(/Users/cedricamoyal/.claude/skills/promote-permissions/scripts/apply.sh)",
+      "Bash(/Users/cedricamoyal/.claude/skills/a-find-unused-vue/scripts/scan.sh)",
+      "Bash(/Users/cedricamoyal/.claude/skills/a-promote-permissions/scripts/plan.sh)",
+      "Bash(/Users/cedricamoyal/.claude/skills/a-promote-permissions/scripts/apply.sh)",
       "Bash(rg *)",
       "Bash(ag *)",
       "Bash(fd *)",

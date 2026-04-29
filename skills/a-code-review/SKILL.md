@@ -1,5 +1,5 @@
 ---
-name: code-review
+name: a-code-review
 description: Reviews unstaged git changes for correctness, security, consistency, and code quality. Use when the user asks to review code, check changes before committing, or wants feedback on modified files.
 ---
 

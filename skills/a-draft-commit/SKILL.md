@@ -1,5 +1,5 @@
 ---
-name: draft-commit
+name: a-draft-commit
 description: Draft a commit message based on currently staged git changes
 disable-model-invocation: true
 allowed-tools: Bash, Read

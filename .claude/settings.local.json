@@ -11,11 +11,17 @@
       "Bash(/opt/homebrew/bin/bash --version)",
       "Bash(/usr/local/opt/bash/bin/bash --version)",
       "Bash(brew list *)",
-      "Bash(chmod 755 ~/.claude/skills/promote-permissions/scripts/plan.sh ~/.claude/skills/promote-permissions/scripts/apply.sh)",
+      "Bash(chmod 755 ~/.claude/skills/a-promote-permissions/scripts/plan.sh ~/.claude/skills/a-promote-permissions/scripts/apply.sh)",
       "Bash(export PATH=\"$HOME/.nvm/versions/node/v22.16.0/bin:$PATH\")",
-      "Bash(bash ~/.claude/skills/promote-permissions/scripts/plan.sh)",
-      "Bash(chmod +x /Users/cedricamoyal/.claude/skills/promote-permissions/scripts/plan.sh /Users/cedricamoyal/.claude/skills/promote-permissions/scripts/apply.sh)",
-      "Bash(bash ~/.claude/skills/promote-permissions/scripts/apply.sh)"
+      "Bash(bash ~/.claude/skills/a-promote-permissions/scripts/plan.sh)",
+      "Bash(chmod +x /Users/cedricamoyal/.claude/skills/a-promote-permissions/scripts/plan.sh /Users/cedricamoyal/.claude/skills/a-promote-permissions/scripts/apply.sh)",
+      "Bash(bash ~/.claude/skills/a-promote-permissions/scripts/apply.sh)",
+      "Skill(a-find-unused-vue)",
+      "Bash(mv code-review *)",
+      "Bash(mv draft-commit *)",
+      "Bash(mv find-unused-vue *)",
+      "Bash(mv promote-permissions *)",
+      "Bash(xargs -I {} stat -f '%m %N' {})"
     ]
   }
 }

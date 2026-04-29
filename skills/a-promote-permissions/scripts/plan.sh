@@ -7,16 +7,17 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-SKILL_ROOT="/Users/cedricamoyal/.claude/skills/promote-permissions"
+SKILL_ROOT="/Users/cedricamoyal/.claude/skills/a-promote-permissions"
 GLOBAL_SETTINGS="$HOME/.claude/settings.json"
 PLAN_FILE="$SKILL_ROOT/.last-plan.json"
 
-# 4 source project files (locked list — no ~/.claude/.claude/ which is deleted)
+# 5 source project files (locked list)
 SOURCES=(
     "portal-frontend|/Users/cedricamoyal/dev/archistar/frontend/portal-frontend/.claude/settings.local.json"
     "start-frontend-client|/Users/cedricamoyal/dev/archistar/frontend/start-frontend/client/.claude/settings.local.json"
     "citymanager-client|/Users/cedricamoyal/dev/archistar/frontend/citymanager/client/.claude/settings.local.json"
     "lineups-vite-react-tailwind-healess-ui|/Users/cedricamoyal/dev/cedric/lineups-vite-react-tailwind-healess-ui/.claude/settings.local.json"
+    "claude-home|/Users/cedricamoyal/.claude/.claude/settings.local.json"
 )
 
 # ============================================================

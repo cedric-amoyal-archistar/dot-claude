@@ -8,7 +8,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-SKILL_ROOT="/Users/cedricamoyal/.claude/skills/promote-permissions"
+SKILL_ROOT="/Users/cedricamoyal/.claude/skills/a-promote-permissions"
 GLOBAL_SETTINGS="$HOME/.claude/settings.json"
 PERMISSIONS_DOC="$HOME/.claude/permissions.md"
 PLAN_FILE="$SKILL_ROOT/.last-plan.json"

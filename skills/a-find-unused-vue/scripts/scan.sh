@@ -20,7 +20,7 @@ fi
 # ============================================================
 # Frozen paths — must match settings.json allowlist exactly
 # ============================================================
-SKILL_ROOT="/Users/cedricamoyal/.claude/skills/find-unused-vue"
+SKILL_ROOT="/Users/cedricamoyal/.claude/skills/a-find-unused-vue"
 KNIP_BIN="$SKILL_ROOT/node_modules/.bin/knip"
 FORMAT_SCRIPT="$SKILL_ROOT/scripts/format-report.sh"
 SELF="$SKILL_ROOT/scripts/scan.sh"
@@ -215,4 +215,4 @@ fi
 # ============================================================
 # Format and emit report
 # ============================================================
-"$FORMAT_SCRIPT" "$KNIP_OUT" "$PROJECT_NAME" "$PROJECT_TYPE"
+"$FORMAT_SCRIPT" "$KNIP_OUT" "$PROJECT_NAME" "$PROJECT_TYPE" "$PROJECT_ROOT"

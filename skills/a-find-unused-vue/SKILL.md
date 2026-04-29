@@ -1,5 +1,5 @@
 ---
-name: find-unused-vue
+name: a-find-unused-vue
 description: Scans a Vue.js project for unimported, orphaned, or dead Vue files (.vue, .js, .ts) that are not referenced anywhere in the codebase. Use when the user asks to find unused files, dead code, orphaned components, Vue cleanup, or unreferenced assets in a Vue project.
 allowed-tools: Bash, Read
 ---
@@ -13,7 +13,7 @@ Produces a read-only report of likely-unimported `.vue`, `.ts`, and `.js` files 
 1. Run the bundled scan script with no arguments:
 
    ```
-   /Users/cedricamoyal/.claude/skills/find-unused-vue/scripts/scan.sh
+   /Users/cedricamoyal/.claude/skills/a-find-unused-vue/scripts/scan.sh
    ```
 
    The script reads `$PWD` and gates on what it finds there. Do NOT `cd` first — the user's invocation cwd is already the project root.
@@ -37,7 +37,7 @@ The vendored `knip` evaluates the project's `knip.config.{ts,js}` if present, wh
 The skill ships with a `package.json` pinning `knip`. On first install of the skill, run:
 
 ```
-cd /Users/cedricamoyal/.claude/skills/find-unused-vue && npm install
+cd /Users/cedricamoyal/.claude/skills/a-find-unused-vue && npm install
 ```
 
 After that, the skill runs offline against a frozen dependency tree.
