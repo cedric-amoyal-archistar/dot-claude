@@ -26,3 +26,9 @@ downloads/
 backups/
 policy-limits.json
 teams/
+
+# Plugin marketplace mirror — synced from upstream, not user content
+plugins/marketplaces/
+
+# Settings backups
+settings.json.bak.*
