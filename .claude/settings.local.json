@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); perms=d.get\\('permissions',{}\\); print\\('allow count:', len\\(perms.get\\('allow',[]\\)\\)\\); print\\('deny count:', len\\(perms.get\\('deny',[]\\)\\)\\); print\\('sample allow:', perms.get\\('allow',[]\\)[:5]\\)\")",
+      "Bash(python3 *)",
+      "Bash(/bin/bash *)",
+      "Bash(bash --version)",
+      "Bash(brew --prefix bash)",
+      "Bash(/usr/local/bin/bash --version)",
+      "Bash(/opt/homebrew/bin/bash --version)",
+      "Bash(/usr/local/opt/bash/bin/bash --version)",
+      "Bash(brew list *)",
+      "Bash(chmod 755 ~/.claude/skills/promote-permissions/scripts/plan.sh ~/.claude/skills/promote-permissions/scripts/apply.sh)",
+      "Bash(export PATH=\"$HOME/.nvm/versions/node/v22.16.0/bin:$PATH\")",
+      "Bash(bash ~/.claude/skills/promote-permissions/scripts/plan.sh)",
+      "Bash(chmod +x /Users/cedricamoyal/.claude/skills/promote-permissions/scripts/plan.sh /Users/cedricamoyal/.claude/skills/promote-permissions/scripts/apply.sh)",
+      "Bash(bash ~/.claude/skills/promote-permissions/scripts/apply.sh)"
+    ]
+  }
+}

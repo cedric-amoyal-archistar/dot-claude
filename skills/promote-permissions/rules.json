@@ -1,0 +1,31 @@
+{
+  "rules": [
+    {"source": "Bash(bun run *)", "verdict": "DROP-DUP", "promoted_form": null, "rationale": "already in global allow"},
+    {"source": "Bash(npm run *)", "verdict": "DROP-DUP", "promoted_form": null, "rationale": "already in global allow (post-normalize)"},
+    {"source": "Bash(git diff *)", "verdict": "DROP-DUP", "promoted_form": null, "rationale": "already in global allow"},
+    {"source": "Bash(git stash *)", "verdict": "DROP-DUP", "promoted_form": null, "rationale": "covered by global git stash family"},
+    {"source": "WebSearch", "verdict": "DROP-DUP", "promoted_form": null, "rationale": "default-allowed tool, not a real entry"},
+    {"source": "Bash(find *)", "verdict": "DROP-DEAD", "promoted_form": null, "rationale": "built-in auto-classified by Claude Code; explicit rule would weaken safety"},
+    {"source": "Bash(grep *)", "verdict": "DROP-DEAD", "promoted_form": null, "rationale": "built-in auto-classified by Claude Code"},
+    {"source": "Bash(npx eslint *)", "verdict": "DROP-DEAD", "promoted_form": null, "rationale": "npx version-spec attack: npx eslint@malicious matches"},
+    {"source": "Bash(npx vitest *)", "verdict": "DROP-DEAD", "promoted_form": null, "rationale": "npx version-spec attack surface"},
+    {"source": "Bash(npx tsc *)", "verdict": "DROP-DEAD", "promoted_form": null, "rationale": "npx version-spec attack surface"},
+    {"source": "Bash(npx prettier *)", "verdict": "DROP-DEAD", "promoted_form": null, "rationale": "npx version-spec attack surface"},
+    {"source": "WebFetch(domain:img.uefa.com)", "verdict": "DROP-DEAD", "promoted_form": null, "rationale": "asset host already scraped; no live workflow"},
+    {"source": "Bash(curl *)", "verdict": "DROP-FORBIDDEN", "promoted_form": null, "rationale": "wide-open egress wildcard; deny rules for -X POST/PUT/DELETE/PATCH may not catch trailing-flag forms"},
+    {"source": "Bash(python3 *)", "verdict": "DROP-FORBIDDEN", "promoted_form": null, "rationale": "Tier-4 code-exec primitive defeats deny rules"},
+    {"source": "Bash(node *)", "verdict": "DROP-FORBIDDEN", "promoted_form": null, "rationale": "Tier-4 code-exec primitive defeats deny rules"},
+    {"source": "Bash(python3 -m json.tool)", "verdict": "PROMOTE", "promoted_form": "Bash(python3 -m json.tool)", "rationale": "literal exact pattern; JSON pretty-print only; no exec surface"},
+    {"source": "WebFetch(domain:github.com)", "verdict": "PROMOTE", "promoted_form": "WebFetch(domain:github.com)", "rationale": "daily-use read-only HTTP; reduces session friction"},
+    {"source": "Read(//tmp/**)", "verdict": "PROMOTE", "promoted_form": "Read(//tmp/**)", "rationale": "conventional scratch-dir; read-only; consolidates duplicate locals"},
+    {"source": "Read(//private/tmp/**)", "verdict": "PROMOTE", "promoted_form": "Read(//private/tmp/**)", "rationale": "macOS symlink target of /tmp; read-only"},
+    {"source": "WebFetch(domain:ma-api.ligue1.fr)", "verdict": "LEAVE-PROJECT-LOCAL", "promoted_form": null, "rationale": "lineups-specific scraping target"},
+    {"source": "WebFetch(domain:sdp-prem-prod.premier-league-prod.pulselive.com)", "verdict": "LEAVE-PROJECT-LOCAL", "promoted_form": null, "rationale": "lineups-specific PL API"},
+    {"source": "WebFetch(domain:www.premierleague.com)", "verdict": "LEAVE-PROJECT-LOCAL", "promoted_form": null, "rationale": "lineups-specific"},
+    {"source": "WebFetch(domain:resources.premierleague.com)", "verdict": "LEAVE-PROJECT-LOCAL", "promoted_form": null, "rationale": "lineups-specific asset host"},
+    {"source": "WebFetch(domain:resources.premierleague.pulselive.com)", "verdict": "LEAVE-PROJECT-LOCAL", "promoted_form": null, "rationale": "lineups-specific asset host"},
+    {"source": "WebFetch(domain:www.api-football.com)", "verdict": "LEAVE-PROJECT-LOCAL", "promoted_form": null, "rationale": "lineups-specific vendor research"},
+    {"source": "WebFetch(domain:www.sportmonks.com)", "verdict": "LEAVE-PROJECT-LOCAL", "promoted_form": null, "rationale": "lineups-specific vendor research"},
+    {"source": "WebFetch(domain:api.fifa.com)", "verdict": "LEAVE-PROJECT-LOCAL", "promoted_form": null, "rationale": "lineups-specific"}
+  ]
+}

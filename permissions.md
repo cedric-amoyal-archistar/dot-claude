@@ -127,3 +127,12 @@ If quarterly slips, the failure mode is gradual bloat — acceptable but real.
 - `~/dev/archistar/frontend/citymanager/client/.claude/settings.local.json` — left alone.
 - `~/dev/archistar/frontend/start-frontend/client/.claude/settings.local.json` — left alone.
 - `~/dev/archistar/frontend/portal-frontend/.claude/settings.local.json` — left alone (the `curl` entry there warrants future review).
+
+---
+
+## Promoted via promote-permissions skill (20260429-124425)
+
+- `Bash(python3 -m json.tool)` — JSON pretty-printer; literal exact match, zero exec surface (sourced from: lineups-vite-react-tailwind-healess-ui)
+- `Read(//private/tmp/**)` — macOS symlink target of /tmp; read-only (sourced from: portal-frontend)
+- `Read(//tmp/**)` — Conventional scratch dir; read-only (sourced from: lineups-vite-react-tailwind-healess-ui)
+- `WebFetch(domain:github.com)` — Daily-use read-only HTTP; promoting reduces session friction more than it grows risk (sourced from: lineups-vite-react-tailwind-healess-ui)
