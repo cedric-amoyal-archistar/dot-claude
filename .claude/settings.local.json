@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git check-ignore *)",
+      "Bash(git *)",
+      "Bash(python3 -m json.tool)",
+      "Bash(jq --version)",
+      "Bash(npx --version)",
+      "Bash(grep -r '$CLAUDE\\\\|__dirname\\\\|SKILL_DIR' /Users/cedricamoyal/.claude/skills/)",
+      "Bash(command -v node)",
+      "Bash(command -v jq)",
+      "Bash(chmod 755 ~/.claude/skills/find-unused-vue/scripts/scan.sh ~/.claude/skills/find-unused-vue/scripts/format-report.sh)",
+      "Bash(export PATH=\"$HOME/.nvm/versions/node/v22.16.0/bin:$PATH\")",
+      "Bash(npm install *)",
+      "Bash(node ~/.claude/skills/find-unused-vue/node_modules/.bin/knip --version)",
+      "Bash(bash -n ~/.claude/skills/find-unused-vue/scripts/scan.sh)",
+      "Bash(bash -n ~/.claude/skills/find-unused-vue/scripts/format-report.sh)"
+    ]
+  }
+}

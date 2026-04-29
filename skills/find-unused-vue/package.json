@@ -1,0 +1,9 @@
+{
+  "name": "find-unused-vue-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vendored dependencies for the find-unused-vue Claude Code skill. Run `npm install` once after creating the skill; thereafter the skill runs offline against a frozen dependency tree.",
+  "dependencies": {
+    "knip": "^5.0.0"
+  }
+}

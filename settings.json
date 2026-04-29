@@ -6,7 +6,8 @@
     "defaultMode": "acceptEdits",
     "allow": [
       "Read(//Users/cedricamoyal/dev/frontend/image-frontend/**)",
-      "Read(//Users/cedricamoyal/dev/**)"
+      "Read(//Users/cedricamoyal/dev/**)",
+      "Bash(/Users/cedricamoyal/.claude/skills/find-unused-vue/scripts/scan.sh)"
     ]
   },
   "hooks": {
